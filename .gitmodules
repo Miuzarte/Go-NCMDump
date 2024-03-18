@@ -1,0 +1,3 @@
+[submodule "NCMDump"]
+	path = NCMDump
+	url = https://github.com/Miuzarte/NCMDump
