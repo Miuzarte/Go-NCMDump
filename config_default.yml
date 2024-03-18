@@ -1,0 +1,20 @@
+####
+# find these AES keys via search engine
+# fill them like:
+# "687A4852..."
+# "2331346C..."
+coreKey: ""
+metaKey: ""
+####
+
+#### will be ignored when:
+# 1. drag and drop ncm(s) to executable
+# 2. execute with ncm(s) as argument
+inputDir: "" # if empty, same as dir of excuteble file
+outputDir: "" # if empty, same as inputDir
+####
+
+coverOutput: false # output album cover to ouputDir
+coverEmbed: true # embed album cover to output file using `ffmpeg` [slow]
+highDefinitionCover: false # download HD cover from netease server [UNTESTED]
+multiThread: true # not recommended for HDD
