@@ -17,3 +17,21 @@
 ### 拖拽文件或文件夹到可执行文件上
 
 同上
+
+## Config
+
+### config.coverOutput
+
+同时输出专辑封面到 `config.outputDir`
+
+### config.coverEmbed
+
+通过 $PATH 调用 `ffmpeg` 将封面嵌入到输出的媒体
+
+### config.highDefinitionCover
+
+将提取出的封面替换为在线拉取的高清版本
+
+### config.multiThread
+
+顾名思义
