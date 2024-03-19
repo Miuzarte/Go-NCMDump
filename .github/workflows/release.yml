@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        run: |
-          git version
-          git submodule update --init --recursive
-          git checkout "${{ github.ref }}"
+        uses: actions/checkout@v2
+      #   run: |
+      #     git version
+      #     git submodule update --init --recursive
+      #     git checkout "${{ github.ref }}"
 
       - name: Set up Go
         uses: actions/setup-go@v3
