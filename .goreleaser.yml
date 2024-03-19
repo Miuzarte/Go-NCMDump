@@ -50,13 +50,13 @@ changelog:
       - go mod tidy
 
 archives:
-  - id: binary
-    builds:
-      - win
-    name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
-    format_overrides:
-      - goos: windows
-        format: binary
+  # - id: binary
+  #   builds:
+  #     - win
+  #   name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
+  #   format_overrides:
+  #     - goos: windows
+  #       format: binary
   - id: nowin
     builds:
       - nowin
